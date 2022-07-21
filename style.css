@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: serif;
+    font-family: sans-serif;
 }
 
 a{
@@ -16,7 +16,7 @@ a{
 }
 
 body{
-    background-image: url();
+    background-image: url('https://thumbs.gfycat.com/GoodnaturedColorlessDuckbillplatypus-size_restricted.gif');
 }
 
 .container{
@@ -103,34 +103,38 @@ button#equal {
 
 /*-----LIGHT THEME-----*/
 
+.calculator{
+    background-color: white;
+}
+
 .calculator #display{
     color: black;
 }
 
 .calculator button#clear{
-    background-color: rgb(245, 245, 245);
-    color: rgb(162, 0, 255);
+    background-color: rgb(253, 0, 139);
+    color: black;
 }
 
 .calculator button.btn-number{
-    background-color: pink;
+    background-color: rgb(234, 0, 255);
     color: black;
 }
 
 .calculator button.btn-operator{
-    background-color: aliceblue;
-    color: aqua;
+    background-color: rgb(19, 255, 243);
+    color: black;
 }
 
 .calculator button.btn-equal{
-    background-color: azure;
+    background-color: rgb(230, 207, 0);
     color: black;
 }
 
 /*-----DARK THEME-----*/
 
 .calculator.dark{
-    background-color: black;
+    background-color: rgb(27, 27, 27);
 }
 
 .calculator.dark #display{
